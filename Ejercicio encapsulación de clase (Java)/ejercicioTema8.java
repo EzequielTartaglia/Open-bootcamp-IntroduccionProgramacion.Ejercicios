@@ -20,29 +20,29 @@ public class Main {
 class Persona{
 
 /* Crear variables las privadas edad, nombre y telefono de la clase Persona.*/
-    private Int edad;
+    private int edad;
     private String nombre;
-    private Int telefono;
+    private int telefono;
 
 /* Crear gets y sets de cada propiedad.*/
-    public setEdad(Int edad){
+    public void setEdad(int edad){
         this.edad = edad;
     }
-    public getEdad(){
-        return this.edad
+    public int getEdad(){
+        return this.edad;
     }
 
-    public setNombre(String nombre){
+    public void setNombre(String nombre){
         this.nombre = nombre;
     }
-    public getNombre(){
-        return this.nombre
+    public String getNombre(){
+        return this.nombre;
     }
 
-    public setTelefono(Int telefono){
+    public void setTelefono(int telefono){
         this.telefono = telefono;
     }
-    public getTelefono(){
-        return this.telefono
+    public int getTelefono(){
+        return this.telefono;
     }
 }
