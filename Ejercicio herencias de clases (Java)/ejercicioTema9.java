@@ -40,7 +40,7 @@ class Persona{
 }
 
 /* Una vez creada la clase, crea una nueva clase Cliente que herede de Persona, esta nueva clase tendrá la variable credito solo para esa clase.*/
-class Cliente extend Persona{
+class Cliente extends Persona{
 
     //Variable unica
     int credito;
@@ -48,7 +48,7 @@ class Cliente extend Persona{
 
 
 /* Una vez hecho esto, haz lo mismo con la clase Trabajador que herede de Persona, y con una variable salario que solo tenga la clase Trabajador. */
-class Trabajador extend Persona{
+class Trabajador extends Persona{
 
     //Variable unica
     float salario;
