@@ -15,10 +15,10 @@ public class Main {
         persona1.telefono = 154567810;
         persona1.credito = 150000;
 
-        System.out.println(persona1.edad);
-        System.out.println(persona1.nombre);
-        System.out.println(persona1.telefono);
-        System.out.println(persona1.credito);
+        System.out.println("La edad del cliente es:"+persona1.edad);
+        System.out.println("El nombre del cliente es:"+persona1.nombre);
+        System.out.println("El telefono del cliente es:"+persona1.telefono);
+        System.out.println("El credito del cliente es:"+persona1.credito);
 
         //Crear un trabajador (con su variable salario)
         Trabajador trabajador1 = new Trabajador();
@@ -27,10 +27,10 @@ public class Main {
         trabajador1.telefono = 154568810;
         trabajador1.salario = 150000.95;
 
-        System.out.println(trabajador1.edad);
-        System.out.println(trabajador1.nombre);
-        System.out.println(trabajador1.telefono);
-        System.out.println(trabajador1.salario);
+        System.out.println("La edad del trabajador es:"+trabajador1.edad);
+        System.out.println("El nombre del trabajador es:"+trabajador1.nombre);
+        System.out.println("El telefono del trabajador es:"+trabajador1.telefono);
+        System.out.println("El salario del trabajador es:"+trabajador1.salario);
     }
 }
 class Persona{
@@ -41,9 +41,6 @@ class Persona{
 
 /* Una vez creada la clase, crea una nueva clase Cliente que herede de Persona, esta nueva clase tendrá la variable credito solo para esa clase.*/
 class Cliente extend Persona{
-    int edad;
-    String nombre;
-    int telefono;
 
     //Variable unica
     int credito;
@@ -52,9 +49,6 @@ class Cliente extend Persona{
 
 /* Una vez hecho esto, haz lo mismo con la clase Trabajador que herede de Persona, y con una variable salario que solo tenga la clase Trabajador. */
 class Trabajador extend Persona{
-    int edad;
-    String nombre;
-    int telefono;
 
     //Variable unica
     float salario;
