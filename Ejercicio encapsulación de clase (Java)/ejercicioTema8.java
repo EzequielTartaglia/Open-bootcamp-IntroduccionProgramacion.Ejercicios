@@ -10,9 +10,9 @@ public class Main {
         persona1.setNombre("Ezequiel");
         persona1.setTelefono(2216795555);
         //Traer elementos y manipularlo
-        System.out.print(getEdad());
-        System.out.print(getNombre());
-        System.out.print(getTelefono());
+        System.out.print("Mi edad es" + getEdad());
+        System.out.print("Mi nombre es" + getNombre());
+        System.out.print("Mi telefono es" + getTelefono());
     }
 }
 /* Utiliza los gets y sets para darle valores a las propiedades edad, nombre y telefono, por último muéstralas por consola */
